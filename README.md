@@ -1,8 +1,6 @@
 # Theft and urbanisation in Denmark
 
-Research question: **Did theft increase as Denmark became more urbanised during industrialisation?**
-
-Hypothesis: theft increased as Denmark became more urbanised.
+Hypothesis: Theft increased as Denmark became more urbanised during industrialisation.
 
 ## Sources
 
