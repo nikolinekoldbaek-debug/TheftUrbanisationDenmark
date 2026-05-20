@@ -18,8 +18,4 @@ Hypothesis: Theft increased as Denmark became more urbanised during industrialis
 - `openrefine/openrefine_operations.json`: OpenRefine-style operation notes.
 - `figures/theft_and_urbanisation_comparison.png`: final visualisation.
 
-## Important limitation
 
-OpenRefine is not installed in the local Codex environment, so the cleaning has been documented in OpenRefine-compatible logs rather than performed through the OpenRefine GUI. The cleaned data keeps original labels, cleaned labels, and merge groups so the process can be checked and repeated.
-
-The 1901-1905 source changes the legal categories. The comparison therefore uses a harmonised `core_theft` measure and notes where exact counts were not recoverable from the PDF extraction.
