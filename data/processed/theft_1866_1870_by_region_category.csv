@@ -1,0 +1,61 @@
+period,source_pdf,source_page,region_original,region_clean,urban_status,sex,category_original,category_clean,merge_group,convictions_5yr,source_note
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,M,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,1134,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,K,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,583,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,M,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,281,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,K,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,147,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,M,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,124,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,K,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,76,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,M,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,80,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,K,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,47,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,M,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,20,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,K,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,11,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,M,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,8,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,14,Staden Hjöbenhavn,Kobenhavn,Urban,K,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,3,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,M,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,530,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,K,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,227,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,M,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,105,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,K,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,29,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,M,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,44,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,K,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,12,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,M,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,35,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,K,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,11,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,M,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,8,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,K,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,4,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,M,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,38,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,14,Öernes Kjöbstæder,Oernes Koebstaeder,Urban,K,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,9,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,M,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,1383,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,K,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,490,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,M,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,319,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,K,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,79,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,M,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,124,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,K,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,21,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,M,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,70,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,K,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,9,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,M,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,22,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,K,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,12,Table 3 extracted from p. VIII
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,M,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,99,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,14,Öernes Landdistrikter,Oernes Landdistrikter,Rural,K,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,62,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,M,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,529,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,K,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,216,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,M,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,115,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,K,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,44,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,M,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,48,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,K,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,17,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,M,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,28,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,K,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,4,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,M,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,11,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,K,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,3,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,M,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,28,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,15,Jyllands Kjöbstæder,Jyllands Koebstaeder,Urban,K,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,14,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,M,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,1019,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,K,Tyveri late Gang begaaet,Tyveri 1ste Gang,core_theft,294,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,M,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,210,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,K,Tyveri 2den Gang,Tyveri 2den Gang,core_theft,44,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,M,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,94,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,K,Tyveri 3die Gang,Tyveri 3die Gang,core_theft,13,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,M,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,78,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,K,Tyveri 4de Gang og oftere,Tyveri 4de Gang eller oftere,core_theft,12,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,M,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,27,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,K,Tyveri og Hæleri afvexlende begaaet,Tyveri og Haeleri afvekslende,tyveri_related,7,Table 3 extracted from p. IX
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,M,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,71,Includes fraud; retained because source category contains Tyveri
+1866-1870,krim1870.pdf,15,Jyllands Landdistrikter,Jyllands Landdistrikter,Rural,K,Smaa-Tyverier og -Bedragerier,Smaatyverier og Bedragerier,minor_theft_mixed,26,Includes fraud; retained because source category contains Tyveri
