@@ -1,0 +1,15 @@
+column,facet_value,normalised_value,clean_value,action
+region_original,Staden Hjöbenhavn,staden kjoebenhavn,Kobenhavn,cluster spelling variant and modernise oe/ø
+region_original,Staden Kobenhavn,staden koebenhavn,Kobenhavn,cluster spelling variant
+region_original,Öernes Kjöbstæder,oernes kjoebstaeder,Oernes Koebstaeder,normalise oe/ø and ae/æ
+region_original,Øernes Købstæder,oernes koebstaeder,Oernes Koebstaeder,cluster spelling variant
+region_original,Jyllands Kjöbstæder,jyllands kjoebstaeder,Jyllands Koebstaeder,normalise oe/ø and ae/æ
+region_original,Jyllands Købstæder,jyllands koebstaeder,Jyllands Koebstaeder,cluster spelling variant
+region_original,Öernes Landdistrikter,oernes landdistrikter,Oernes Landdistrikter,normalise oe/ø
+region_original,Øernes Landdistrikter,oernes landdistrikter,Oernes Landdistrikter,cluster spelling variant
+category_original,Tyveri late Gang begaaet,tyveri lste gang begaaet,Tyveri 1ste Gang,OCR correction late/lste
+category_original,Tyveri lste Gang begaaet,tyveri lste gang begaaet,Tyveri 1ste Gang,standardise label
+category_original,Tyveri første Gang begaaet,tyveri foerste gang begaaet,Tyveri 1ste Gang,standardise first offence label
+category_original,Tyveri og Hæleri afvexlende begaaet,tyveri og haeleri afvexlende begaaet,Tyveri og Haeleri afvekslende,normalise ae/æ and spelling
+category_original,Smaa-Tyverier og -Bedragerier,smaa tyverier og bedragerier,Smaatyverier og Bedragerier,merge hyphenation
+category_original,Smaatyverier og Brugstyverier,smaatyverier og brugstyverier,Smaatyverier og Brugstyverier,standardise label
