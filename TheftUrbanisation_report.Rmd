@@ -1,0 +1,126 @@
+---
+title: "Did theft increase as Denmark became more urbanised during industrialisation?"
+author: "Nikoline Koldbaek Kaiser"
+date: "`r paste('Last updated:', format(Sys.time(), '%d %B %Y, %H:%M'))`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+# Research question and hypothesis
+
+**Problem statement:** Did theft increase as Denmark became more urbanised during industrialisation?
+
+**Hypothesis:** Theft did increase as Denmark became more urbanised.
+
+This project compares two Danmarks Statistik publications:
+
+- `krim1870.pdf`: criminal statistics for 1866-1870.
+- `rets1905.pdf`: justice statistics for 1901-1905.
+
+The analysis focuses on categories containing `Tyveri`. Because the two publications use different legal classifications, I merge comparable theft categories into a harmonised group called `core_theft`.
+
+# Cleaning method
+
+I searched the extracted PDF text for every occurrence of `Tyveri`, then created a cleaned dataset. The cleaning keeps the original source wording and adds standardised labels. This matters because nineteenth-century Danish and OCR output contain spelling and character variation, for example:
+
+- `Kjöbenhavn`, `Kobenhavn`, and `København`
+- `Kjöbstæder`, `Koebstaeder`, and `Købstæder`
+- `Hæleri` and `Haeleri`
+- `afvexlende` and `afvekslende`
+
+Special characters were normalised consistently: `æ` = `ae`, `ø` = `oe`, and `å` = `aa`. The OpenRefine-style cleaning log is saved in `openrefine/facet_cleaning_log.csv`, and the operation notes are saved in `openrefine/openrefine_operations.json`.
+
+```{r load-data}
+theft_1870 <- read.csv("data/processed/theft_1866_1870_by_region_category.csv")
+theft_1905 <- read.csv("data/processed/theft_1901_1905_harmonised.csv")
+urbanisation <- read.csv("data/processed/urbanisation_reference.csv")
+```
+
+# Theft in 1866-1870
+
+```{r theft-1870-summary}
+urban_1870 <- aggregate(convictions_5yr ~ urban_status, theft_1870, sum)
+urban_1870$annual_average <- urban_1870$convictions_5yr / 5
+urban_1870$share_pct <- round(urban_1870$convictions_5yr / sum(urban_1870$convictions_5yr) * 100, 1)
+urban_1870
+```
+
+```{r plot-urban-rural-1870}
+cols <- c("Urban" = "#2f6f73", "Rural" = "#c75b39")
+barplot(
+  setNames(urban_1870$convictions_5yr, urban_1870$urban_status),
+  col = cols[urban_1870$urban_status],
+  ylim = c(0, max(urban_1870$convictions_5yr) * 1.25),
+  ylab = "Theft-related convictions, 5-year total",
+  main = "Theft-related convictions by urban/rural jurisdiction, 1866-1870"
+)
+```
+
+In 1866-1870, theft-related convictions were almost evenly split between urban and rural jurisdictions. Urban jurisdictions accounted for 4,623 convictions, while rural jurisdictions accounted for 4,585. This is important because only about 25% of Denmark's population was urban around 1870, meaning urban areas were over-represented in theft convictions.
+
+# Period comparison
+
+For 1901-1905, the source text states annual averages for the main theft paragraphs:
+
+- § 228: simple theft, first offence
+- § 230: theft, second offence
+- § 229: aggravated theft
+- § 231: theft, third offence
+- § 232: theft, fourth or later offence
+
+The category `Smaatyverier og Brugstyverier` appears in the 1901-1905 table, but its exact count was not recoverable from the extracted PDF text. I therefore keep it in the cleaning file, but exclude it from the numerical comparison.
+
+```{r period-comparison}
+core_1870 <- sum(theft_1870$convictions_5yr[theft_1870$merge_group == "core_theft"])
+core_1905 <- sum(theft_1905$total_5yr_estimated[theft_1905$merge_group == "core_theft"], na.rm = TRUE)
+
+comparison <- data.frame(
+  period = c("1866-1870", "1901-1905"),
+  core_theft_5yr = c(core_1870, core_1905),
+  annual_average = c(core_1870 / 5, core_1905 / 5),
+  urban_population_share_pct = c(25, 40)
+)
+comparison$index_1870_100 <- round(comparison$core_theft_5yr / comparison$core_theft_5yr[1] * 100, 1)
+comparison
+```
+
+```{r final-visualisation}
+plot(
+  comparison$urban_population_share_pct,
+  comparison$core_theft_5yr,
+  type = "b",
+  pch = 16,
+  lwd = 3,
+  col = "#2f6f73",
+  xaxt = "n",
+  xlim = c(23, 42),
+  ylim = c(8600, 10450),
+  xlab = "Urban population share",
+  ylab = "Core theft convictions, 5-year total",
+  main = "Core theft convictions rose while Denmark became more urban"
+)
+axis(1, at = comparison$urban_population_share_pct, labels = paste0(comparison$urban_population_share_pct, "%"))
+text(
+  comparison$urban_population_share_pct,
+  comparison$core_theft_5yr,
+  labels = paste0(comparison$period, "\n", comparison$core_theft_5yr),
+  pos = c(4, 2),
+  offset = 0.7
+)
+```
+
+# Interpretation
+
+The visualisation suggests that theft convictions did increase between the two periods. Core theft convictions rose from 8,725 in 1866-1870 to an estimated 10,110 in 1901-1905. At the same time, the urban share of Denmark's population increased from 25% in 1870 to 40% in 1906. This supports the hypothesis that recorded theft increased as Denmark became more urbanised.
+
+However, the relationship should be interpreted carefully. The visualisation shows correlation, not causation. It cannot prove that urbanisation itself caused theft to rise. It also measures convictions, not all thefts committed, so changes in policing, reporting, courts, and legal classification may affect the numbers. The 1901-1905 publication also classifies theft differently from the 1866-1870 publication, so the comparison is harmonised rather than perfectly identical.
+
+# Conclusion
+
+The evidence supports a cautious version of the hypothesis. Theft convictions appear to have risen during the period when Denmark became more urban, and urban areas were already over-represented in theft convictions in 1866-1870. The finding fits the idea that industrialisation and urban growth created new opportunities and pressures linked to property crime, but it should not be read as proof that urbanisation alone caused theft to increase.
