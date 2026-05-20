@@ -1,0 +1,7 @@
+period,source_pdf,source_page,category_original,category_clean,merge_group,annual_average,total_5yr_estimated,source_note
+1901-1905,rets1905.pdf,38,Strfl.s § 228 simpelt Tyveri første Gang begaaet,Simpelt Tyveri 1ste Gang,core_theft,1093,5465,Text states average annual applications of paragraph
+1901-1905,rets1905.pdf,38,§ 230 Tyveri anden Gang,Tyveri 2den Gang,core_theft,344,1720,Text states average annual convictions
+1901-1905,rets1905.pdf,38,§ 229 grovt Tyveri,Groft Tyveri,core_theft,257,1285,Text states average annual convictions
+1901-1905,rets1905.pdf,38,§ 231 Tyveri tredje Gang,Tyveri 3die Gang,core_theft,164,820,Text states average annual convictions
+1901-1905,rets1905.pdf,38,§ 232 Tyveri fjerde eller senere Gang,Tyveri 4de Gang eller oftere,core_theft,164,820,Text states average annual convictions
+1901-1905,rets1905.pdf,103,Smaatyverier og Brugstyverier,Smaatyverier og Brugstyverier,minor_theft,NA,NA,Category appears in table but exact count was not recoverable from PDF text extraction
