@@ -1,0 +1,34 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Create ASCII-normalised helper values for Danish characters",
+    "engineConfig": {"facets": [], "mode": "row-based"},
+    "columnName": "region_original",
+    "expression": "grel:value.toLowercase().replace('æ','ae').replace('ø','oe').replace('å','aa').replace('ö','oe').replace('ä','ae')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Trim whitespace in text columns",
+    "engineConfig": {"facets": [], "mode": "row-based"},
+    "columnName": "category_original",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Cluster spelling variants for Copenhagen and town/rural regions",
+    "engineConfig": {"facets": [], "mode": "row-based"},
+    "columnName": "region_clean",
+    "edits": [
+      {"from": ["Staden Hjöbenhavn", "Staden Kobenhavn"], "to": "Kobenhavn"},
+      {"from": ["Öernes Kjöbstæder", "Øernes Købstæder"], "to": "Oernes Koebstaeder"},
+      {"from": ["Jyllands Kjöbstæder", "Jyllands Købstæder"], "to": "Jyllands Koebstaeder"},
+      {"from": ["Öernes Landdistrikter", "Øernes Landdistrikter"], "to": "Oernes Landdistrikter"}
+    ]
+  }
+]
