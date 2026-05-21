@@ -34,7 +34,7 @@ I searched the extracted PDF text for every occurrence of `Tyveri`, then created
 - `Hæleri` and `Haeleri`
 - `afvexlende` and `afvekslende`
 
-Special characters were normalised consistently: `æ` = `ae`, `ø` = `oe`, and `å` = `aa`. The OpenRefine-style cleaning log is saved in `openrefine/facet_cleaning_log.csv`, and the operation notes are saved in `openrefine/openrefine_operations.json`.
+Special characters were normalised consistently: `æ` = `ae`, `ø` = `oe`, and `å` = `aa`. The OpenRefine cleaning log is saved in `openrefine/facet_cleaning_log.csv`, and the operation notes are saved in `openrefine/openrefine_operations.json`.
 
 ```{r load-data}
 theft_1870 <- read.csv("data/processed/theft_1866_1870_by_region_category.csv")
