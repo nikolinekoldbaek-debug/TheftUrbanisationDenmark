@@ -2,6 +2,8 @@
 
 Hypothesis: Theft increased as Denmark became more urbanised during industrialisation.
 
+Author: Nikoline Koldbæk Kaiser
+
 ## Sources
 
 - Danmarks Statistik, criminal statistics 1866-1870: `data/raw/krim1870.pdf`
