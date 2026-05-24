@@ -1,4 +1,4 @@
-# Theft and urbanisation in Denmark 1866-1905
+# Theft and urbanisation in Denmark 1866-1906
 
 Hypothesis: Theft increased as Denmark became more urbanised during industrialisation.
 
